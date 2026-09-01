@@ -1,0 +1,68 @@
+.subtitle{
+     background-color: black;
+     color: chocolate;
+     padding: 10px;
+     text-align: center;
+}
+     .switch{
+        background-color: blueviolet;
+        color: black;
+        padding: 10px;
+        text-align: center;
+     }
+        .do{
+            background-color: black;
+            color: blue;
+            padding: 10px;
+            text-align: center;
+        }
+          .title{
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            background-color: black;
+            color: brown;
+            padding: 100px 50px;
+            text-align: center;
+            margin: 130px 70px;
+          }
+            label {
+              display: inline-block;
+              width: 100px;
+            }
+             .email {
+              margin-bottom: 40px;
+             }
+            
+             body {
+              background-image: url(studenthub.png);
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              margin: 0;
+              height: 100vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: Arial, Helvetica, sans-serif;
+             }
+              .login-box {
+                width: 300px;
+                padding: 30px;
+                background-color: brown;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+              }
+              .text {
+                /* border: 1px solid red; */
+                text-align: justify;
+                /*text-decoration: 1px solid line-through #f59 */
+                text-shadow: .6px .6px 1px red;
+                font-size: 1.5rem;
+                font-weight: 900;
+                font-family: "Lobster Two", sans-serif;
+              }
+
+            
+             
+             
