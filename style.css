@@ -11,6 +11,7 @@
     padding: 100px 20px;
     background-color: #111;
     color: white;
+    margin-top: 75px;
    }
    .hero h1 {
     font-size: 40px;
@@ -30,12 +31,14 @@
     cursor: pointer;
    }
    /* ----------------end--------------------------- */
+   /* -------------for already have account------------- */
      .switch{
         background-color: blueviolet;
         color: black;
         padding: 10px;
         text-align: center;
      }
+     /* ------------end----------------------------------- */
         .do{
             background-color: black;
             color: blue;
@@ -52,7 +55,10 @@
             padding: 200px 70px;
             text-align: center;
             margin: 130px 70px;
+            /* margin: 30px 50px; */
             font-size: xx-large;
+            margin-top: 20px;
+            margin-bottom:75px ;
           }
             label {
               display: inline-block;
@@ -81,6 +87,7 @@
                 background-color: brown;
                 border-radius: 10px;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                
               }
               .text {
                 /* border: 1px solid red; */
@@ -92,39 +99,150 @@
                 font-family: "Lobster Two", sans-serif;
               }
 /* ------------------------button stuff------------------- */
-              .categories{
-                display: flex;
-                align-items: center;
-                gap: 13px;
-                margin-bottom: 48px;
-            }
-            .topic {
-                padding: 11px 19px;
-                border-radius: 28px;
-                border: 1px solid #665b58;
-                background: transparent;
-                color: #e9e5e4;
-                font-family: "Roboto Mono",monospace;
-                font-size: 16px;
-                font-weight: 600;
-                cursor: pointer;
-            }
-            .active-color{
-                background-color:#ffbd38;
-                color: #2a1a18;
-                border: none;
-                padding: 13px 20px;
-                box-shadow: 0 2px 10px rgba(255, 189, 56, 0.25);
-            }
-            .more-topics {
-                color: #e8e4e3;
-                font-size: 22px;
-                margin-left: 2px;
-                text-decoration: underline;
-                text-decoration-line: dotted;
-                text-underline-offset: 7px;
-            }
+/* .categories{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 48px;
+}
+.topic {
+  padding: 11px 19px;
+  border-radius: 98px;
+  border: 1px solid #665b58;
+  background: transparent;
+  color: #e9e5e4;
+  font-family: "Roboto Mono",monospace;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.active-color{
+  background-color:#ffbd38;
+  color: #2a1a18;
+  border: none;
+  padding: 13px 20px;
+  box-shadow: 0 2px 10px rgba(255, 189, 56, 0.25);
+}
+.more-topics {
+  color: #e8e4e3;
+  font-size: 22px;
+  margin-left: 2px;
+  text-decoration: underline;
+  text-decoration-line: dotted;
+  text-underline-offset: 7px; */
+
 /* ---------------------------------end---------------- */
-            
-             
-             
+            .flexparent {
+              /* border: 2px solid palevioletred; */
+              margin: 0 50.5px;
+              display: flex;
+              gap: 40px;
+              height: 200px;
+              justify-content: space-between;
+            }
+            .flex-child2 {
+              background-color: #f5f6f7;
+              border-radius: 20px;
+              padding: 30px 30px;
+            }
+
+            .flex-child2:nth-child(1) {
+              /* border: 2px solid saddlebrown; */
+              width: 33.33%;
+              background-color: #f5f6f7;
+          }
+          .flex-child2:nth-child(2) {
+            width: 33.33%;
+            background-color: #f5f6f7;
+          }
+
+          .flex-child2:nth-child(3) {
+            width: 33.33%;
+            background-color: #f5f6f7;
+          }
+          .flex-child2:nth-child(4) {
+            width: 33.33%;
+            background-color: #f5f6f7;
+          }
+          .flex-child2:nth-child(5) {
+            width: 33.33%;
+            background-color: #f5f6f7;
+          }
+          .flex-child2 a:last-child {
+            border: 2px solid red;
+            display: block;
+            text-align: center;
+            margin: 40px 48px;
+            padding: 10px 15px;
+            background-color: #Fff;
+            border-radius: 30px;
+            border: 2px solid #2e6ac2;
+            text-decoration: none;
+            color: #2e6ac2;
+        } 
+        .flex-child2 a:last-child:hover {
+          border: none;
+          background-color: #f5f6f7;
+      }
+          /* ----------second part-------------- */
+          .flexparent2 {
+            /* border: 2px solid purple; */
+            margin: 0 50.5px;
+            display: flex;
+            gap: 40px;
+            height: 200px;
+            justify-content: space-between;
+            margin-top: 40px;
+          }
+          .flex-child3 {
+            background-color: #f5f6f7;
+            border-radius: 20px;
+            padding: 30px 30px;
+          }
+
+          .flex-child3:nth-child(1) {
+            /* border: 2px solid saddlebrown; */
+            width: 33.33%;
+            background-color: #f5f6f7;
+        }
+        .flex-child3:nth-child(2) {
+          /* border: 2px solid saddlebrown; */
+          width: 33.33%;
+          background-color: #f5f6f7;
+        }
+
+        .flex-child3:nth-child(3) {
+          /* border: 2px solid saddlebrown; */
+          width: 33.33%;
+          background-color: #f5f6f7;
+        }
+        .flex-child3:nth-child(4) {
+          /* border: 2px solid saddlebrown; */
+          width: 33.33%;
+          background-color: #f5f6f7;
+        }
+        .flex-child3:nth-child(5) {
+          /* border: 2px solid saddlebrown; */
+          width: 33.33%;
+          background-color: #f5f6f7;
+        }
+        .flex-child3 a:last-child {
+          border: 2px solid red;
+          display: block;
+          text-align: center;
+          margin: 40px 48px;
+          padding: 10px 15px;
+          background-color: #Fff;
+          border-radius: 30px;
+          border: 2px solid #2e6ac2;
+          text-decoration: none;
+          color: #2e6ac2;
+      } 
+      .flex-child3 a:last-child:hover {
+        border: none;
+        background-color: #F5F6F7;
+    }
+       
+       
+       
